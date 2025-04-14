@@ -1,0 +1,53 @@
+🛒 Inventory Manager – E-Commerce Inventory System in Python
+
+Welcome to Inventory Manager, a complete command-line E-Commerce inventory system built and designed in Python. 
+this project demonstrates fundamental skills in file handling, data persistence, class design, and user interaction — 
+all wrapped in a clean, modular structure that mimics real-world inventory management systems.
+
+
+🚀 What It Does
+This program allows users to manage a virtual product inventory with the following core features:
+
+➕ Add New Items
+
+📋 Display Inventory List
+
+🎯 Filter Items by Price
+
+❌ Delete Items by ID
+
+💾 Save Inventory to CSV File
+
+🚪 Exit the System
+
+
+Each item is assigned a universally unique identifier (UUID) — a method widely used in SQL-based systems — to guarantee distinct, non-colliding entries.
+
+🧠 What I Used
+🧩 Key Libraries:
+uuid: Automatically generates a globally unique identifier for each inventory item, ensuring data integrity and uniqueness even across large datasets.
+
+csv: Powers the file-based storage, enabling easy read/write of inventory data across sessions.
+
+
+🧱 Core Concepts:
+Object-Oriented Programming (OOP)
+
+File I/O with Exception Handling
+
+List Comprehension for Efficient Filtering
+
+Unique ID generation and SKU tagging
+
+Data persistence via CSV format
+
+
+💡 Why This Project Matters
+This project isn’t just about storing items — it’s about learning how to build systems that mimic 
+real-world processes. From product entry and deletion to persistent storage and filtering logic, 
+the Inventory Manager simulates essential backend tasks of an e-commerce application in a user-friendly way.
+
+
+🔍 How to Use
+Simply run the program from your terminal or IDE. A text-based menu will guide you through the various 
+inventory management options. Your data will automatically be saved in a local CSV file for future sessions.
